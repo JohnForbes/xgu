@@ -1,8 +1,8 @@
-from xgu.f_a import f as f_A
-from xgu.f_m import f as f_M
-from xgu.f_d import f as f_D
+from xgu.f_added import f as f_added
+from xgu.f_modified import f as f_modified
+from xgu.f_deleted import f as f_deleted
 
-term_to_function = {' M': f_M, '??': f_A, ' D': f_D}
+term_to_function = {' M': f_modified, '??': f_added, ' D': f_deleted}
 
 # process_changes
 def f(d, ask):
