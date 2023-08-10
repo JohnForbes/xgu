@@ -5,7 +5,7 @@ long_description = Path("./README.md").read_text()
 
 setup(
   name='xgu',
-  version='0.0.5',
+  version='0.0.6',
   license='MIT',
   description='Semi-Automatic Git Tool',
   long_description=long_description,
