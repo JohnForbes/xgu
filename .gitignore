@@ -1,1 +1,4 @@
 *.secret
+dist
+*__pycache__
+*.pyc
