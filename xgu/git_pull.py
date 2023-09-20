@@ -1,4 +1,4 @@
-from hak.one.string.colour.bright.cyan import f as cy
+from hak.string.colour.bright.cyan import f as cy
 from subprocess import run as sprun
 
 # git_pull
