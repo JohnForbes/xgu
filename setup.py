@@ -1,11 +1,11 @@
 from setuptools import setup
 from pathlib import Path
-from hak.one.directory.filepaths.packages.get import f as get_packages
+from hak.directory.filepaths.packages.get import f as get_packages
 long_description = Path("./README.md").read_text()
 
 setup(
   name='xgu',
-  version='0.0.6',
+  version='0.0.8',
   license='MIT',
   description='Semi-Automatic Git Tool',
   long_description=long_description,
