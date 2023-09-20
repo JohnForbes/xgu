@@ -1,5 +1,5 @@
 from subprocess import run as sprun
-from hak.one.string.colour.bright.cyan import f as cy
+from hak.string.colour.bright.cyan import f as cy
 
 # git_status
 def f():
