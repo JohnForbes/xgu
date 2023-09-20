@@ -1,7 +1,7 @@
-from hak.one.file.load import f as load
-from hak.one.file.save import f as save
-from hak.one.string.colour.bright.cyan import f as cy
-from hak.one.string.colour.bright.magenta import f as mag
+from hak.file.load import f as load
+from hak.file.save import f as save
+from hak.string.colour.bright.cyan import f as cy
+from hak.string.colour.bright.magenta import f as mag
 from os.path import exists
 from subprocess import run as sprun
 
