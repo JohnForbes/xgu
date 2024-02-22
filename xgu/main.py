@@ -17,8 +17,8 @@ def f(ask):
   status_result = git_status()
   q = prepare_q(status_result)
   _committable_filepaths = ['./'+_.split(' ')[-1] for _ in q]
-  _ = _f(_committable_filepaths)
-  print(_)
+  priority_committable = _f(_committable_filepaths)
+  print(priority_committable)
 
   changes = populate_changes_dict(q)
   add_and_commit_changes(changes, ask)
